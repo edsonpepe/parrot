@@ -1,47 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="diseños/diseño.css">
-    <script src="botones.js"></script>
+    <title>Menu</title>
+    <link rel="stylesheet" href="diseños/style-menu.css">
+    <link rel="icon" href="fotos/logo_cho.png">
 </head>
 <body>
-    <div class="contenedor">
-
-
-        <div id="barra1">
-           <div class="texmenu"> HACERCAS DE</div>
-           <div class="texmenu"> RESEÑAS</div>
-           <div class="texmenu"> RESERVACIONES</div>
-           <div class="texmenu"> <button id="menu" onclick="menu.html">MENU</button></div>
-           <div id="foto">
-           <img src="fotos/logo_cho.png" width="50">   
-           </div>
-
-         <div id="texmenu">
-            MENU!
-         </div>
-         
-         <div class="amarillo">
-            HAMBURGESAS
-         </div>
-        <div class="textbla">
-            <br>SENCILLA <br><br>
-            HAWAIANA <br><br>
-            CANGREBURGER
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="fotos/logo_cho.png" width="50px"></a>
         </div>
-        </div>
-        <div class="pecios">
-           <br> $55 <br><br>
-            $70 <br><br>
-            $120
-        
-        </div>
-        <div class="preio2">
-            <br>$65
-          </div>
-    </div>
+        <nav>
+            <ul>
+                <div class="menu">
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="reservaciones.html">RESERVACIONES</a></li>
+                    <li><a href="reseñas.html">RESEÑAS</a></li>
+                    <li><a href="#">ACERCA DE</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>MENUS!</h1>
+        <section class="menu-section">
+            <h2>HAMBURGUESAS</h2>
+            <ul>
+                <li>Sencilla_______________$55 <span>Con papas_____ $65</span></li>
+                <li>Hawaiana_______________$70 <span>Con papas_____ $85</span></li>
+                <li>Cangreburger (Especialidad de la casa) $120</li>
+            </ul>
+            <div class="image">
+                <img src="fotos/burger.jpg" height="300px" width="500px">
+            </div>
+        </section>
+        <section class="menu-section">
+            <h2>HOT DOGS</h2>
+            <ul>
+                <li>1 (Sencillo)_______________$20 <span>Con papas_____ $30</span></li>
+                <li>Orden de 3_______________$55 <span>Con papas_____ $65</span></li>
+            </ul>
+            <div class="image">
+                <img src="fotos/crepa.jpg" height="300px" width="500px">
+            </div>
+        </section>
+        <section class="menu-section">
+            <h2>ALITAS</h2>
+            <ul>
+                <li>BBQ</li>
+                <li>Habanero</li>
+                <li>Picosas</li>
+                <li>Bufalo</li>
+                <li>Mango</li>
+                <li>Pimienta Limón (Picosas)</li>
+            </ul>
+            <div class="price">$95</div>
+        </section>
+        <section class="menu-section">
+            <h2>SNACKS</h2>
+            <ul>
+                <li>Papas a la francesa_______________$50 cada orden</li>
+                <li>Aros de cebolla_______________$50 cada orden</li>
+                <li>Chicharon preparado_______________$35</li>
+                <li>Sopa Maruchan_______________$30</li>
+            </ul>
+            <div class="image">
+                <img src="fotos/galleta.jpg" height="300px" width="500px">
+            </div>
+        </section>
+        <section class="menu-section">
+            <h2>DORILOCOS</h2>
+            <ul>
+                <li>Doritos Nachos (Rojos)_______________$45</li>
+                <li>Doritos Incognita (Negros)_______________$45</li>
+                <li>Doritos Flamin Hot (Morados)_______________$45</li>
+            </ul>
+        </section>
+        <section class="menu-section">
+            <h2>CREPAS Y WAFFLES</h2>
+            <ul>
+                <li>Sabores: Lechera, Nutella, Cajeta, Hershey's, Mermeladas (Fresa y Zarzamora)</li>
+                <li>Frutas: Fresa, Plátano, Durazno, Uva</li>
+                <li>Topping: Nuez, Galleta Oreo, Lunetas, Chocoretas</li> </br></br></br>
+            </ul>
+            <div class="price">Crepas_______________$55</div></br>
+            <div class="price">Waffles_______________$60</div></br>
+            <div class="extra">Topping o ingrediente extra_______________$10</div></br>
+        </section>
+        <section class="menu-section">
+            <h2>BEBIDAS</h2>
+            <h3>Bebidas Calientes</h3>
+            <ul>
+                <li>Cappuccino_______________$45</li>
+                <li>Café con leche_______________$45</li>
+                <li>Café latte_______________$45</li>
+                <li>Café clásico_______________$30</li>
+                <li>Té limón_______________$25</li>
+                <li>Té manzanilla_______________$25</li>
+                <li>Té verde_______________$25</li>
+                <li>Té hierbabuena_______________$25</li>
+            </ul>
+            <div class="image">
+                <img src="fotos/bebidas.jpg" height="300px" width="500px">
+            </div>
+            <h3>Bebidas Frías</h3>
+            <ul>
+                <li>Frappé's Cappuccino_______________$55</li>
+                <li>Frappé's Galleta Oreo_______________$60</li>
+                <li>Frappé's Moka_______________$55</li>
+                <li>Frappé's Carlos V_______________$60</li>
+                <li>Frappé's Galleta Emperador_______________$55</li>
+                <li>Frappé's Mazapán _______________55</li>
+                <li>Frappé's Rompope_______________$55</li>
+                <li>Frappé's Licor de café (Kahlúa)_______________$65</li>
+                <li>Chamoyadas Mango_______________$50</li>
+                <li>Chamoyadas Fresa_______________$50</li>
+                <li>Chamoyadas Piña_______________$50</li>
+                <li>Chamoyadas Pepino_______________$50</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2024© La Chocita</p>
+        <p>Noe Ibarria | Diseñador Gráfico y Fotógrafo</p>
+        <p>Mariana Martínez | Diseñador Gráfico</p>
+        <p>Edison Romero | Programador</p>
+    </footer>
 </body>
 </html>

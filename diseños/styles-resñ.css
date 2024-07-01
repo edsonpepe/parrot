@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #131313;
+    padding: 1px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+img {
+    display: flex;
+    margin-left: 25px;
+}
+
+.reseñas {
+    margin: 50px 0;
+}
+
+.reseñas h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+form label {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 80%;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #d4af37; /* Golden color */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b38e30;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #131313;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+/*<img src="fotos/logo_cho.png" width="50">*/
